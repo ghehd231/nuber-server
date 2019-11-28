@@ -1,0 +1,27 @@
+{
+  "name": "nuber-server",
+  "version": "1.0.0",
+  "description": "nuber-server",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghehd231/nuber-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghehd231/nuber-server/issues"
+  },
+  "homepage": "https://github.com/ghehd231/nuber-server#readme",
+  "dependencies": {
+    "nodemon": "^2.0.1",
+    "ts-node": "^8.5.3",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14"
+  }
+}
