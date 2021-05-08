@@ -25,7 +25,7 @@
     "nodemon": "^2.0.1",
     "pg": "^7.14.0",
     "ts-node": "^8.5.3",
-    "typeorm": "^0.2.21",
+    "typeorm": "^0.2.25",
     "typescript": "^3.7.2"
   },
   "scripts": {
